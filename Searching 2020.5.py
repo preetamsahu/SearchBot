@@ -26,9 +26,6 @@ def get_answer(event):
     status_bar.update()
     if entry.get()=="preetam" or entry.get()=="Preetam Sahu" or entry.get()=="Preetam" or entry.get()=="preetam sahu" or entry.get()=="PREETAM SAHU":
         text.insert(INSERT,"Preetam , his complete name is Preetam Sahu , he is an CS student in BIT college i.e Bhilai Institue of technology.  He is participating  in BITSHINE with his three friends kushal,Nikhil and rahul . They made Search bot that can put the information infront of you in very concise manner.")
-    elif entry.get()=="rahul" or entry.get()=="rahul pratap singh" or entry.get()=="Rahul" or entry.get()=="Rahul Pratap Singh"or entry.get()=="RAHUL PRATAP SINGH":
-        text.insert(INSERT,"""Rahul, his full name is Rahul Pratap singh, he complete his 12th in Shankraa Bhilaai with 90+ marks in each subject. 
-        Now he is Computer Science student in bhilai institute of technology. He is one of the best student. He is very hard working ,attractive and self –Programmer. """)
 
     else:
         try:
